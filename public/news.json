@@ -3,7 +3,7 @@
 		"title": "We have officially released",
 		"author": "NotroDan",
 		"date": "21/08/2025",
-		"image": "/article_placeholder.png",
+		"image": "../../assets/images/article_placeholder.png",
 		"content": "After many years, the brand-new Notro Client is finally here - rebuilt completely from the ground up. This project has been in the works for a long time, and we’re excited to share it with you all. We're currently in beta, so while everything is up and running, you may run into a few bugs along the way. If you do, please let us know by reporting them on our Discord server so we can keep improving the client. Thank you for all the support."
 	}
 ]
