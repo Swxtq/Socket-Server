@@ -3,7 +3,7 @@
   {
     "title": "Minemen",
     "ip": "na.minemen.club",
-    "promoted": true,
+    "promoted": false,
     "flavors": ["PVP", "Skyblock", "Prison"]
   }
 
