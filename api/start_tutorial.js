@@ -22,8 +22,6 @@ export default async function handler(req, res) {
       isUser: true,
       rank: { name: 'Default' },
       cosmetics: [
-        { id: 'n1t', selected: false },
-        { id: 'b1t', selected: true }
       ]
     };
     await usersCollection.updateOne({ _id: uuid }, { $set: userToDoc(user) }, { upsert: true });
