@@ -1,4 +1,4 @@
-// api/start_tutorial.js
+
 import { fetchUUID } from '../lib/uuid.js';
 import { getUsersCollection } from '../lib/_helpers.js';
 import { docToUser, userToDoc } from '../lib/registries.js';
@@ -32,9 +32,6 @@ export default async function handler(req, res) {
   return res.status(200).json({ success: true, user });
 }
 
-/**
- * Vercel sometimes passes JSON automatically; this helper tries to ensure body is parsed.
- */
 async function parseJsonBody(req) {
   try {
     return await new Promise((resolve, reject) => {
